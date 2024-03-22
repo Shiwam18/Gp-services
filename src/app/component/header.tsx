@@ -1,10 +1,10 @@
 export default function Header(){
     return (
         <>
-            <div className="w-full bg-cyan-600 h-1 md:w-auto">
+            <div className="sm:w-full bg-cyan-600 h-1">
             </div>
-            <div className="h-16 w-full flex justify-evenly my-4">
-                <div className="font-medium text-3xl">
+            <div className=" h-16 w-full flex justify-evenly my-4">
+                <div className="md:font-medium md:text-3xl">
                     <span className=" text-cyan-600 font-medium text-6xl">Md.</span>co.uk
                 </div>
                 <div className="flex justify-evenly my-4">  

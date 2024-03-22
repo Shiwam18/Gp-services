@@ -10,7 +10,7 @@ import Image from "next/image"
 export default function Footer(){
     return (
         <>
-            <div className="w-full h-[366px] bg-[#003153] flex justify-evenly">
+            <div className=" bg-[#003153] flex justify-evenly">
 
                 <div className="text-white w-1/4 mt-28">
 

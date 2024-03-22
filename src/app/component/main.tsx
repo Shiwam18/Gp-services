@@ -1,11 +1,11 @@
 import Section1 from "./Section1";
+import Section2 from "./Section2";
 
 export default function Main() {
     return (
-        <div className="max-w-screen-xl mx-auto">
-            <div className="w-full flex justify-center items-center">
-                <Section1 />
-            </div>
-        </div>
+       <>
+       <Section1 />
+       <Section2 />
+       </>
     );
 }
