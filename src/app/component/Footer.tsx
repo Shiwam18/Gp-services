@@ -91,17 +91,21 @@ export default function Footer(){
 
                 </div>
             </div>
-            <div className="w-full h-20 bg-blue-950 flex pl-40 text-white py-5 font-medium">Copyright &#169; 2024 All Rights Reserved. 
-                <span className=" text-cyan-500 px-1">Md.co.uk</span>
-
-                <div className=" flex ml-[500px]">
-                    <div>
-                        Terms & Conditions
+            <div className="w-full h-20 bg-blue-950 text-white font-normal text-sm">
+                <div className=" flex pl-28">
+                    <div className=" py-8">
+                        Copyright &#169; 2024 All Rights Reserved. 
+                        <span className=" text-cyan-500 px-1">Md.co.uk</span>
                     </div>
-                    <div className=" w-[1px] h-3  bg-gray-300 mt-2 mx-8"></div>
-                    <div>Privacy Policy</div>
-                    <div className=" w-[1px] h-3  bg-gray-300 mt-2 mx-8"></div>
-                    <div>Membership Benifits</div>
+
+                    <div className=" flex ml-[500px] py-8">
+                        <div>Terms & Conditions</div>
+                        <div className=" w-[1px] h-3  bg-gray-300 mt-2 mx-8"></div>
+                        <div>Privacy Policy</div>
+                        <div className=" w-[1px] h-3  bg-gray-300 mt-2 mx-8"></div>
+                        <div>Membership Benifits</div>
+                    </div>
+
                 </div>
             </div>
         </>
